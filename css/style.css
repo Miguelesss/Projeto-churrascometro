@@ -5,7 +5,7 @@ body, html {
 
 main {
     height: 100vh;
-    background-color: aquamarine;
+    background-color: rgb(200, 229, 255);
 }
 
 main > h1 {
@@ -30,4 +30,8 @@ main > h1 {
 
 .second {
     margin-top: 5px;
+}
+
+.listItens {
+    border: none;
 }

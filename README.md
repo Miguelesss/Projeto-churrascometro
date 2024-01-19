@@ -1,4 +1,4 @@
 # Projeto-churrascometro
 
-<a>https://miguelesss.github.io/Projeto-churrascometro/</a>
+<a target="blank">https://miguelesss.github.io/Projeto-churrascometro/</a>
  

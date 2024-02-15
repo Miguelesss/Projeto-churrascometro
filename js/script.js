@@ -17,11 +17,23 @@ function numbD(d){
     return nD;
 }
 function calc(){
-    cerv = (nA * 2); 
-    beb = (nC * 0.5);
-    carne = (nA * 0.5) + (nC * 0.25);
-    console.log((cerv * nD) + " " + (beb * nD) + " " + (carne * nD))
+    document.getElementById("enviar").style.backgroundColor = "white"
     
+    if (nD == null || nD == 0){
+        cerv = 0;
+        beb = 0;
+        carne = 0;
+        nD = 0;
+    } else {
+        cerv = (nA * 2); 
+        beb = (nC * 0.5);
+        carne = (nA * 0.5) + (nC * 0.25);
+    }
+    
+    document.getElementById("cerveja").innerText = (cerv * nD + " litros de cerveja;")
+    document.getElementById("bebida").innerText = (beb * nD + " litros de bebida para as crianças;")
+    document.getElementById("carne").innerText = (carne * nD + "kg de carne.")
+    document.getElementById("enviar").style.backgroundColor = "rgb(237, 234, 234)"
 }
 
 

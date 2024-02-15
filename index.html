@@ -11,16 +11,19 @@
     <main>
         <h1>Churrascômetro</h1>
         <div id="fakeForm">
-            <input type="number" placeholder="Adultos" class="inputs" id="adultos" onchange="numbA(this.value)"><br>
-            <input type="number" placeholder="Crianças" class="inputs second" onchange="numbC(this.value)">
-            <input type="number" placeholder="Duração" class="inputs second" onchange="numbD(this.value)">
-            <input type="submit" class="inputs second" id="enviar" value="Calcular" onclick="calc()">
+            <input type="number" placeholder="Adultos" class="inputs" id="adultos" onchange="numbA(this.value)">
+            <input type="number" placeholder="Crianças" class="inputs" onchange="numbC(this.value)">
+            <input type="number" placeholder="Duração" class="inputs" onchange="numbD(this.value)">
+            <input type="submit" class=" submit inputs" id="enviar" value="Calcular" onclick="calc()">
         </div>
         <div id="itens">
             <ul>
-                <h3>voçê precisará de:</h3>
-                <li class="inputs listItens">
-                    kg de 
+                <h3>voçê irá precisar de:</h3>
+                <li class="listItens" id="cerveja">
+                </li>
+                <li class="listItens" id="bebida">
+                </li>
+                <li class="listItens" id="carne">
                 </li>
             </ul>
         </div>

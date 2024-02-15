@@ -6,32 +6,32 @@ body, html {
 main {
     height: 100vh;
     background-color: rgb(200, 229, 255);
+    padding-left: 40px;
 }
 
 main > h1 {
-    text-align: center;
+    text-align: left;
     margin: 0;
     padding: 10px;
+    padding-top: 70px;
 }
 
 .inputs {
-    display: inline-block;
-    transform: translateX(-50%);
-    position: relative;
-    left: 50%;
-    width: 60%;
+    display:block;
+    height: 18px;
+    width: 20%;
     border: 1px solid gray;
     border-radius: 5px;
-}
-
-#adultos {
-    margin-top: 10px;
-}
-
-.second {
     margin-top: 5px;
 }
 
-.listItens {
-    border: none;
+.submit {
+    padding: 0;
+    width: 10%;
+    background-color: rgb(237, 234, 234);
+}
+
+.submit:hover {
+    background-color: rgb(213, 213, 213);
+    transition: all .2s;
 }
